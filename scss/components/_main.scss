@@ -1,0 +1,413 @@
+//*--------------------------------------Index-------------------------------------------------*//
+
+.index-div-main {
+    height: 200px;
+    padding-top: 20px;
+}
+
+.index-div-main h2 {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 30px;
+    font-weight: 800;
+    margin: 20px;
+    color: black;
+}
+
+.index-div-main p {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 30px;
+    color: black;
+}
+
+.carousel-fade .carousel-inner .carousel-item .d-block {
+    width: 600px;
+    height: 600px;
+}
+
+.carousel-fade {
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.index-seccion {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 400px);
+    row-gap: 30px;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+}
+
+.index-seccion .div-seccion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 15px;
+    margin-right: 15px;
+    flex-wrap: wrap;
+}
+
+.index-seccion .index-img-1 {
+    width: 100%;
+    height: 100%;
+}
+
+.index-seccion .index-img-2 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+.index-seccion .index-img-3 {
+    width: 100%;
+    height: 100%;
+}
+
+.index-seccion .div-seccion h3 {
+    font-size: 25px;
+    font-weight: 800;
+    text-decoration: underline;
+    color: black;
+}
+
+.index-seccion .div-seccion p {
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+}
+
+//* ----------------------------------------Recetas------------------------------------------- *//
+
+.seccion-recetas {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(7, 450px);
+    flex-wrap: wrap;
+    place-items: center;
+    row-gap: 60px;
+}
+
+.seccion-recetas .recetas-1 {
+    grid-row: 1/2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.seccion-recetas .recetas-2 {
+    grid-row: 2/3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.seccion-recetas .recetas-3 {
+    grid-row: 3/4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.seccion-recetas .recetas-4 {
+    grid-row: 4/5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.seccion-recetas .recetas-5 {
+    grid-row: 5/6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.seccion-recetas .recetas-6 {
+    grid-row: 6/7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.seccion-recetas .recetas-7 {
+    grid-row: 7/8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.seccion-recetas img {
+    grid-column: 2/3;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.seccion-recetas .ingredientes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.recetas-subtitulo h2 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 30px;
+    font-weight: 800;
+    text-decoration: underline;
+    color: black;
+}
+
+.recetas-subtitulo p {
+    text-align: center;
+    margin: 20px;
+    font-size: 20px;
+    font-weight: 800;
+    color: black;
+    margin-bottom: 60px;
+}
+
+.seccion-recetas div h3 {
+    font-size: 35px;
+    font-weight: 800;
+    text-decoration: underline;
+    color: black;
+}
+
+.seccion-recetas .ingredientes h4 {
+    font-size: 25px;
+    font-weight: 700;
+    text-decoration: underline;
+    color: black;
+    margin-bottom: 15px;
+}
+
+.seccion-recetas .ingredientes ol li {
+    font-size: 19px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+
+//* ---------------------------------------Productos----------------------------------------- *//
+
+
+.div-productos h2 {
+    color: black;
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.productos .t-productos img {
+    height: 200px;
+    width: 200px;
+}
+
+.productos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(7, 400px);
+    row-gap: 30px;
+    column-gap: 10px;
+    margin-top: 30px;
+    padding-bottom: 20px;
+}
+
+.productos .t-productos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 1px solid black;
+    border-radius: 40px 40px 40px 40px;
+    margin: 0px 20px 0px 20px;
+}
+
+
+.productos .t-productos input {
+    color: black;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+
+.productos .t-productos h3 {
+    color: black;
+    font-size: 23px;
+    font-weight: 800;
+}
+
+.productos .t-productos p {
+    color: black;
+    font-size: 19px;
+    font-weight: 800;
+}
+
+//* ----------------------------------------Nosotros----------------------------------------- *//
+
+
+.titulo-nosotros h2 {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 30px;
+    font-weight: 800;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: black;
+}
+
+.nosotros {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 900px);
+}
+
+.nosotros .nosotros-trayecto {
+    grid-column: 1/2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nosotros .nosotros-div {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nosotros .nosotros-div-1 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nosotros img {
+    grid-column: 2/3;
+    width: 70%;
+    height: 90%;
+    margin-left: 90px;
+    margin-top: 40px;
+}
+
+.nosotros div img {
+    width: 270px;
+    height: 200px;
+}
+
+
+.nosotros .nosotros-trayecto h3 {
+    font-size: 27px;
+    font-weight: 700;
+    color: black;
+    text-decoration: underline;
+    margin-top: 30px;
+}
+
+.nosotros .nosotros-trayecto p {
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+    padding: 20px 20px 0px 20px;
+}
+
+.nosotros .nosotros-div h3 {
+    font-size: 27px;
+    font-weight: 700;
+    color: black;
+    text-decoration: underline;
+    padding-left: 20px;
+}
+
+.nosotros .nosotros-div-1 h3 {
+    font-size: 27px;
+    font-weight: 700;
+    color: black;
+    text-decoration: underline;
+}
+
+//* ----------------------------------------Contacto----------------------------------------- *//
+
+.titulo-contacto h2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+    padding-top: 15px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+    color: black;
+}
+
+.contacto {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px 100px 100px 100px 800px;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.contacto .div-contacto {
+    grid-column: 1/2;
+    margin: 40px 0px 0px 40px;
+}
+
+.contacto .div-contacto a {
+    margin-left: 20px;
+    color: black;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.contacto form {
+    grid-column: 1/4;
+}
+
+
+.contacto form {
+    margin: 60px 0px 0px 40px;
+}
+
+.contacto form div {
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.contacto .div-contacto img {
+    width: 60px;
+    height: 60px;
+}
+
+.contacto .imagen-contacto {
+    grid-column: 2/3;
+    grid-row: 5/2;
+    height: 100%;
+    width: 80%;
+    margin-left: 40px;
+}

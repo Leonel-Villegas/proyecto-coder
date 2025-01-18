@@ -1,0 +1,19 @@
+{
+  "name": "proyecto-code",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Leonel-Villegas/proyecto-coder.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Leonel-Villegas/proyecto-coder/issues"
+  },
+  "homepage": "https://github.com/Leonel-Villegas/proyecto-coder#readme",
+  "description": ""
+}

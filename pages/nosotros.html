@@ -9,12 +9,13 @@
                 integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
                 crossorigin="anonymous">
         <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../css/estilos.css">
 </head>
 
 <body>
 
         <header>
-                <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <nav class="navbar navbar-expand-lg nav-1">
                         <div class="container-fluid">
                                 <a class="navbar-brand" href="../index.html"><img src="../img/logo-header.jpg"
                                                 class="logo-header" alt=""></a>
@@ -23,15 +24,22 @@
                                         aria-expanded="false" aria-label="Toggle navigation">
                                         <span class="navbar-toggler-icon"></span>
                                 </button>
-                                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                                        <ul class="barra-navegacion">
+                                <div class="collapse navbar-collapse div-2" id="navbarSupportedContent">
+                                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                                                 <li><a href="../index.html" class="a-navegacion">Inicio</a></li>
                                                 <li><a href="./recetas.html" class="a-navegacion">Recetas</a></li>
-                                                <li><a href="./productos.html" class="a-navegacion">Productos</a></li>
-                                                <li><a href="./nosotros.html" class="a-navegacion">Nosotros</a></li>
-                                                <li><a href="./contacto.html" class="a-navegacion">Contacto</a></li>
+                                                <li><a href="./productos.html" class="a-navegacion">Productos</a>
+                                                </li>
+                                                <li><a href="./nosotros.html" class="a-navegacion">Nosotros</a>
+                                                </li>
+                                                <li><a href="./contacto.html" class="a-navegacion">Contacto</a>
+                                                </li>
                                         </ul>
-
+                                        <form class="d-flex" role="search">
+                                                <input class="form-control me-2" type="search" placeholder="Buscar"
+                                                        aria-label="Search">
+                                                <button class="btn btn-outline-warning" type="submit">Buscar</button>
+                                        </form>
                                 </div>
                         </div>
                 </nav>
@@ -41,38 +49,60 @@
                 <div class="titulo-nosotros">
                         <h2>Empresa lider en la fabricacion y distribucion de herramientas de bartender a todo el pais.
                         </h2>
-                        <p>Nuestro enfoque va directo en la calidad, nos gusta obtener siempre los mejores resultados
-                                para poder lograr el objetivo deseado y es la conformidad de todos los bartenders a la
-                                hora de trabajar confiando en las herramientas que utilizan sabiendo que nunca van a
-                                presentar una falla ya que nuestra empresa demuestra presicion y calidad a la hora de
-                                trabajar.</p>
                 </div>
 
                 <section class="nosotros">
+                        <div class="nosotros-trayecto">
+                                <h3>Nuestro trayecto
+                                </h3>
+                                <p>Nuestro proyecto comenzo como una empresa familiar donde eramos 4 hermanos y uno de
+                                        ellos
+                                        como por el 2018 habia hecho el curso de bartender profesional, a lo que el
+                                        siempre nos
+                                        contaba que a la hora de trabajar de bartender la calidad de las herramientas
+                                        con las
+                                        que el trabajaba eran muy malas siempre se rompian o se deformaban y es cuando
+                                        se nos
+                                        ocurrio la idea genial de empezar a fabricar herramientas para bartender
+                                        profesional ya
+                                        que no habia
+                                        nadie en el pais que pudiera producirlas de buena calidad y duraderas que era lo
+                                        que
+                                        estaban buscando la mayoria de los bartenders del pais entonces asi no ibamos a
+                                        tener
+                                        competencia alguna.
+                                        Nuestro proyecto se fue armando en el 2020 y se termino concretando
+                                        en el 2021, cuando comenzamos eramos solamente 4 trabajando y poco a poco empezo
+                                        a tener
+                                        un crecimiento increible y su nombre empezo a ser conocido en todos lados tanto
+                                        asi que
+                                        en solamente 1 año terminamos trabajando 50 personas en la misma empresa con la
+                                        maquinaria mas completa en tecnologia para la automatizacion y produccion en
+                                        serie para
+                                        asi mejorar la cantidad sin perder la calidad.
+                                        Actualmente somos empresa lider en todo el pais cuando se trata de produccion
+                                        y distribucion de herramientas para bartender, nuestro enfoque va directo en la
+                                        calidad para poder lograr el objetivo deseado y es la conformidad de todos los
+                                        bartenders a la
+                                        hora de trabajar confiando en las herramientas que utilizan sabiendo que nunca
+                                        van a
+                                        presentar una falla ya que nuestra empresa demuestra presicion y calidad a la
+                                        hora de
+                                        trabajar.</p>
+                        </div>
 
+                        <img src="../img/imagen-cnc.jpg" alt="" class="imagen-nosotros">
 
                         <div class="nosotros-div">
                                 <h3>Herramientas hechas completamente de acero inoxidable.</h3>
-                                <div class="img-nosotros">
-                                        <img src="../img/nosotros-2.jfif" alt="">
-                                        <img src="../img/nosotros-5.jfif" alt="">
-                                </div>
-                        </div>
-
-                        <div class="nosotros-div">
-                                <h3>Empresa automatizada para la fabricacion en serie.</h3>
-                                <div class="img-nosotros">
-                                        <img src="../img/nosotros-3.jfif" alt="">
-                                        <img src="../img/nosotros-4.jfif" alt="">
-                                        <img src="../img/nosotros-1.jfif" alt="">
-                                </div>
-                                <p>Tambien estamos equipados con maquinaria computarizada para la fabricacion continua
-                                        de nuestros productos sin perder la calidad y presicion.</p>
+                                <img src="../img/nosotros-2.jfif" alt="">
+                                <img src="../img/nosotros-5.jfif" alt="">
                         </div>
 
                         <div class="nosotros-div-1">
-                                <h3>Dejamos un video ilustrativo para que conozcan nuestra empresa por dentro</h3>
-                                <video src="" controls></video>
+                                <h3>Empresa automatizada para la fabricacion en serie.</h3>
+                                <img src="../img/nosotros-3.jfif" alt="">
+                                <img src="../img/nosotros-4.jfif" alt="">
                         </div>
 
                 </section>
@@ -99,10 +129,9 @@
 
                         <div>
                                 <h2>Medios de pago</h2>
-                                <div>
-                                        <img src="../img/medios-de-pago-1.jpg" alt="medios de pago">
-                                </div>
+                                <img src="../img/medios-de-pago-1.jpg" alt="medios de pago">
                         </div>
+
                         <a href="https://www.whatsapp.com/?lang=es_LA" target="_blank"><img class="logo-desplazable"
                                         src="../img/whatsapp.jpg" alt="whatsapp"></a>
                 </section>
