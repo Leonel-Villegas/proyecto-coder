@@ -1,13 +1,4 @@
 //*--------------------------------FOOTER---------------------------*//
-.seccion-footer div {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: space-between;
-    margin-top: 15px;
-    margin-left: 50px;
-    flex-wrap: wrap;
-}
 
 .seccion-footer {
     display: flex;
@@ -15,31 +6,43 @@
     justify-content: space-around;
     padding-bottom: 100px;
     flex-wrap: wrap;
-}
 
-.seccion-footer div h2 {
-    text-decoration: underline;
-    font-size: 30px;
-    font-weight: 850;
-    color: black;
-}
+    div {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: space-between;
+        margin-top: 15px;
+        margin-left: 50px;
+        flex-wrap: wrap;
 
-.seccion-footer div a {
-    color: black;
-    font-size: 18px;
-    font-weight: 800;
-}
+        h2 {
+            text-decoration: underline;
+            font-size: 30px;
+            font-weight: 850;
+            color: $color-principal;
+        }
 
-.seccion-footer div p {
-    font-size: 18px;
-    font-weight: 800;
-    color: black;
-}
+        a {
+            color: $color-principal;
+            font-size: 18px;
+            font-weight: 800;
+        }
 
-.seccion-footer a .logo-desplazable {
-    position: fixed;
-    bottom: 0;
-    right: 10px;
-    width: 70px;
-    height: 70px;
+        p {
+            font-size: 18px;
+            font-weight: 800;
+            color: $color-principal;
+        }
+    }
+
+    a {
+        .logo-desplazable {
+            position: fixed;
+            bottom: 0;
+            right: 10px;
+            width: 70px;
+            height: 70px;
+        }
+    }
 }

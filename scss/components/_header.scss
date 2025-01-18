@@ -1,42 +1,80 @@
 //*-----------------------HEADER-------------------------*//
 
 
-header .navbar .container-fluid .collapse ul {
-    width: 90%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+header {
+    .navbar {
+        .container-fluid {
+            a {
+                .logo-header {
+                    width: 100px;
+                    height: 100px;
+                    margin-top: 30px;
+                    margin-left: 30px;
+                }
+            }
+
+            .collapse {
+
+                .navbar-nav {
+                    width: 90%;
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    justify-content: space-evenly;
+                    flex-wrap: wrap;
+
+                    li {
+                        
+                        a {
+                            color: $color-principal;
+                            font-size: 25px;
+                            font-weight: 700;
+                            transition: 1s;
+
+                            &:hover {
+                                background-color: $color-secundario;
+                                color: $color-principal;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    h1 {
+        color: $color-principal;
+        font-size: 60px;
+        text-align: center;
+        text-decoration: underline;
+        margin: 0px;
+        padding-bottom: 20px;
+        animation-name: titulo;
+        animation-duration: 3s;
+        animation-timing-function: ease-in-out;
+        animation-direction: initial;
+        animation-delay: 0s;
+    }
+}
+
+@keyframes titulo {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+
+    to {
+        margin-left: 0;
+        width: 100%;
+    }
 }
 
 
-header .nav-1 .container-fluid .div-2 ul li a {
-    color: black;
-    font-size: 25px;
-    font-weight: 700;
-}
 
-
-header .nav-1 .container-fluid .div-2 .barra-navegacion {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    margin-left: 50px;
-}
-
-header h1 {
-    color: black;
-    font-size: 60px;
-    text-align: center;
-    text-decoration: underline;
-    margin: 0px;
-}
-
-header .nav-1 .container-fluid a .logo-header {
-    width: 100px;
-    height: 100px;
-    margin-top: 30px;
-    margin-left: 30px;
-}
+// header .nav-1 .container-fluid .div-2 .barra-navegacion {
+//     display: flex;
+//     flex-direction: row;
+//     align-items: center;
+//     justify-content: space-between;
+//     margin-left: 50px;
+// }
