@@ -3,11 +3,11 @@
 
 - 🔭 Actualmente estoy trabajando en **El rincón del bartender**
 
-- 📫 Cómo contactarme **leopochi98@gmail.com**
+- 📫 Cómo contactarme **leonelvillegas@gmail.com**
 
 <h3 align="left">Conéctate conmigo:</h3>
 <p align="left">
-<a href="https://fb.com/leonel villegas" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="leonel villegas" height="30" width="40" /></a>
+<a href="https://fb.com/agustin romero" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="leonel villegas" height="30" width="40" /></a>
 <a href="https://instagram.com/leo villegas" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="leo villegas" height="30" width="40" /></a> </p>
 <
 
