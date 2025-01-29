@@ -51,10 +51,8 @@
     }
 
     .nosotros .imagen-nosotros {
-        width: 60%;
+        width: 90%;
         height: 80%;
-        margin-left: 90px;
-        margin-top: 60px;
     }
 
     .nosotros div img {
@@ -68,7 +66,7 @@
     }
 
     .nosotros .nosotros-trayecto p {
-        font-size: 17px;
+        font-size: 15px;
     }
 
     .nosotros .nosotros-div h3 {
@@ -77,13 +75,11 @@
 
     .nosotros .nosotros-div-1 h3 {
         font-size: 25px;
-        margin: 0px 10px 0px 20px;
     }
 
-    .nosotros {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(2, 900px);
+
+    .seccion-recetas .ingredientes h4 {
+        margin-left: 30px;
     }
 }
 
@@ -128,8 +124,8 @@
     .productos {
         grid-template-columns: repeat(2, 1fr);
         grid-auto-rows: 400px;
-        row-gap: 20px;
-        margin-top: 40px;
+        row-gap: 35px;
+        margin: 40px 20px 0px 20px;
     }
 
     .productos .t-productos h3 {
@@ -287,8 +283,7 @@
     }
 
     .nosotros .imagen-nosotros {
-        width: 500px;
-        height: 500px;
+        display: none;
     }
 
     .nosotros div img {
@@ -588,6 +583,20 @@
     .nosotros .nosotros-div-1 h3 {
         font-size: 20px;
     }
+
+    .productos .t-productos {
+        margin-bottom: 28px;
+    }
+
+    .nosotros .nosotros-div img {
+        height: 200px;
+        width: 200px;
+    }
+
+    .nosotros .nosotros-div-1 img {
+        height: 200px;
+        width: 200px;
+    }
 }
 
 
@@ -595,6 +604,8 @@
 
     .contacto form {
         margin-right: 50px;
+        margin-bottom: 30px;
+
     }
 }
 
@@ -676,6 +687,16 @@
         font-size: 13px;
     }
 
+    .nosotros .nosotros-div img {
+        height: 150px;
+        width: 150px;
+    }
+
+    .nosotros .nosotros-div-1 img {
+        height: 150px;
+        width: 150px;
+    }
+
 }
 
 @media screen and (max-width:500px) {
@@ -689,7 +710,7 @@
     }
 
     .titulo-nosotros h2 {
-        font-size: 19px;
+        font-size: 18px;
     }
 
     .nosotros .imagen-nosotros {
@@ -708,14 +729,21 @@
     }
 
     .nosotros .nosotros-div h3 {
-        font-size: 14px;
+        font-size: 15px;
         margin: 20px 20px 0px 20px;
         text-align: center;
+    }
 
+    .nosotros .nosotros-div img {
+        margin-left: 30px;
+    }
+
+    .nosotros .nosotros-div-1 img {
+        margin-left: 30px;
     }
 
     .nosotros .nosotros-div-1 h3 {
-        font-size: 14px;
+        font-size: 15px;
         margin: 20xp 20px 0px 20px;
         text-align: center;
     }
